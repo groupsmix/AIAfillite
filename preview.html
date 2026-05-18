@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>compareai.site — brutalist preview</title>
+<style>
+  :root {
+    --bg:#FFFFFF; --fg:#0F1115; --muted:#475569; --line:#E2E8F0; --accent:#2563EB;
+  }
+  *{box-sizing:border-box; box-shadow:none !important; background-image:none !important; text-shadow:none !important;}
+  html,body{margin:0;padding:0;background:var(--bg);color:var(--fg);font-family:Inter,"SF Pro Text",Arial,sans-serif;text-align:left;-webkit-font-smoothing:antialiased;}
+  a{color:inherit;text-decoration:none;}
+  a:hover{text-decoration:underline;text-underline-offset:3px;}
+  .mono{font-family:ui-monospace,Menlo,Consolas,monospace;}
+  .grid{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));}
+  .cell{border-right:1px solid var(--line);padding:24px;}
+  .cell:last-child{border-right:0;}
+  .row{border-top:1px solid var(--line);}
+  .btn{display:inline-block;border:1px solid var(--line);border-radius:2px;padding:8px 14px;font-weight:600;font-size:13px;letter-spacing:-0.01em;}
+  .btn-accent{background:var(--accent);color:#fff;border-color:var(--accent);border-radius:2px;}
+  h1,h2,h3,p,ul{margin:0;}
+  ul{padding:0;list-style:none;}
+  table{border-collapse:collapse;width:100%;}
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header style="border-bottom:1px solid var(--line);">
+  <div class="grid">
+    <div class="cell" style="grid-column:span 3;padding:20px 24px;">
+      <div style="font-weight:800;letter-spacing:-0.02em;font-size:18px;">compareai<span style="color:var(--muted)">.site</span></div>
+      <div class="mono" style="font-size:11px;color:var(--muted);margin-top:4px;">v0.1.0 / directory</div>
+    </div>
+    <nav class="cell" style="grid-column:span 7;display:flex;gap:28px;align-items:center;">
+      <a href="#tools" style="font-size:14px;font-weight:500;">Tools</a>
+      <a href="#categories" style="font-size:14px;font-weight:500;">Categories</a>
+      <a href="#reviews" style="font-size:14px;font-weight:500;">Reviews</a>
+      <a href="#about" style="font-size:14px;font-weight:500;">About</a>
+      <a href="#contact" style="font-size:14px;font-weight:500;">Contact</a>
+    </nav>
+    <div class="cell" style="grid-column:span 2;padding:16px 24px;">
+      <a href="#tools" class="btn btn-accent">Browse tools →</a>
+    </div>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="grid">
+  <div class="cell" style="grid-column:span 8;padding:64px 32px;">
+    <div class="mono" style="font-size:12px;color:var(--muted);margin-bottom:16px;">// index — directory of ai tools</div>
+    <h1 style="font-size:56px;line-height:1.02;font-weight:800;letter-spacing:-0.03em;">Compare AI tools.<br>Without the marketing noise.</h1>
+    <p style="font-size:17px;color:var(--muted);max-width:640px;margin-top:20px;line-height:1.55;">
+      A flat, structured directory of AI products. Specs, prices, and short reviews. No carousels. No glow effects. No "revolutionary AI-powered synergy."
+    </p>
+    <div style="margin-top:28px;display:flex;gap:12px;">
+      <a href="#tools" class="btn btn-accent">Browse all tools</a>
+      <a href="#categories" class="btn">View categories</a>
+    </div>
+  </div>
+  <aside class="cell" style="grid-column:span 4;padding:0;">
+    <div style="border-bottom:1px solid var(--line);padding:24px 24px 16px;">
+      <div class="mono" style="font-size:11px;color:var(--muted);">STATUS</div>
+      <div style="font-size:14px;margin-top:6px;">Tracking <b>312</b> tools across <b>8</b> categories.</div>
+    </div>
+    <div style="padding:16px 24px;">
+      <div class="mono" style="font-size:11px;color:var(--muted);margin-bottom:10px;">CATEGORIES</div>
+      <ul>
+        <li style="border-top:1px solid var(--line);padding:10px 0;font-size:14px;display:flex;justify-content:space-between;"><a>Chat / LLM</a><span class="mono" style="color:var(--muted)">→</span></li>
+        <li style="border-top:1px solid var(--line);padding:10px 0;font-size:14px;display:flex;justify-content:space-between;"><a>Image</a><span class="mono" style="color:var(--muted)">→</span></li>
+        <li style="border-top:1px solid var(--line);padding:10px 0;font-size:14px;display:flex;justify-content:space-between;"><a>Code</a><span class="mono" style="color:var(--muted)">→</span></li>
+        <li style="border-top:1px solid var(--line);padding:10px 0;font-size:14px;display:flex;justify-content:space-between;"><a>Research</a><span class="mono" style="color:var(--muted)">→</span></li>
+        <li style="border-top:1px solid var(--line);padding:10px 0;font-size:14px;display:flex;justify-content:space-between;"><a>Audio</a><span class="mono" style="color:var(--muted)">→</span></li>
+        <li style="border-top:1px solid var(--line);padding:10px 0;font-size:14px;display:flex;justify-content:space-between;"><a>Video</a><span class="mono" style="color:var(--muted)">→</span></li>
+        <li style="border-top:1px solid var(--line);padding:10px 0;font-size:14px;display:flex;justify-content:space-between;"><a>Productivity</a><span class="mono" style="color:var(--muted)">→</span></li>
+        <li style="border-top:1px solid var(--line);padding:10px 0;font-size:14px;display:flex;justify-content:space-between;"><a>Agents</a><span class="mono" style="color:var(--muted)">→</span></li>
+      </ul>
+    </div>
+  </aside>
+</section>
+
+<!-- FEATURED -->
+<section style="border-top:1px solid var(--line);">
+  <div class="grid">
+    <div class="cell" style="grid-column:span 12;padding:20px 24px;display:flex;justify-content:space-between;align-items:baseline;border-right:0;">
+      <h2 style="font-size:22px;font-weight:700;letter-spacing:-0.02em;">Featured tools</h2>
+      <a class="mono" href="#tools" style="font-size:12px;color:var(--muted);">see all →</a>
+    </div>
+  </div>
+  <div class="grid row">
+    <article class="cell" style="grid-column:span 4;">
+      <div class="mono" style="font-size:11px;color:var(--muted);">Chat / LLM</div>
+      <h3 style="font-size:22px;font-weight:700;margin:6px 0 8px;letter-spacing:-0.02em;">ChatGPT</h3>
+      <p style="font-size:14px;line-height:1.55;color:var(--muted);">General-purpose conversational LLM by OpenAI. Strong at writing, coding, and reasoning.</p>
+      <div style="margin-top:16px;display:flex;justify-content:space-between;align-items:center;">
+        <span class="mono" style="font-size:12px;">$20/mo</span>
+        <a href="#" class="btn btn-accent" style="font-size:12px;padding:6px 12px;">Open →</a>
+      </div>
+    </article>
+    <article class="cell" style="grid-column:span 4;">
+      <div class="mono" style="font-size:11px;color:var(--muted);">Chat / LLM</div>
+      <h3 style="font-size:22px;font-weight:700;margin:6px 0 8px;letter-spacing:-0.02em;">Claude</h3>
+      <p style="font-size:14px;line-height:1.55;color:var(--muted);">Anthropic assistant tuned for long-context, structured reasoning, and safe outputs.</p>
+      <div style="margin-top:16px;display:flex;justify-content:space-between;align-items:center;">
+        <span class="mono" style="font-size:12px;">$20/mo</span>
+        <a href="#" class="btn btn-accent" style="font-size:12px;padding:6px 12px;">Open →</a>
+      </div>
+    </article>
+    <article class="cell" style="grid-column:span 4;">
+      <div class="mono" style="font-size:11px;color:var(--muted);">Research</div>
+      <h3 style="font-size:22px;font-weight:700;margin:6px 0 8px;letter-spacing:-0.02em;">Perplexity</h3>
+      <p style="font-size:14px;line-height:1.55;color:var(--muted);">Search-grounded answer engine with cited sources and real-time web access.</p>
+      <div style="margin-top:16px;display:flex;justify-content:space-between;align-items:center;">
+        <span class="mono" style="font-size:12px;">$20/mo</span>
+        <a href="#" class="btn btn-accent" style="font-size:12px;padding:6px 12px;">Open →</a>
+      </div>
+    </article>
+  </div>
+  <div class="grid row">
+    <article class="cell" style="grid-column:span 4;">
+      <div class="mono" style="font-size:11px;color:var(--muted);">Image</div>
+      <h3 style="font-size:22px;font-weight:700;margin:6px 0 8px;letter-spacing:-0.02em;">Midjourney</h3>
+      <p style="font-size:14px;line-height:1.55;color:var(--muted);">High-fidelity text-to-image generator known for stylistic, art-directed outputs.</p>
+      <div style="margin-top:16px;display:flex;justify-content:space-between;align-items:center;">
+        <span class="mono" style="font-size:12px;">$10/mo</span>
+        <a href="#" class="btn btn-accent" style="font-size:12px;padding:6px 12px;">Open →</a>
+      </div>
+    </article>
+    <article class="cell" style="grid-column:span 4;">
+      <div class="mono" style="font-size:11px;color:var(--muted);">Code</div>
+      <h3 style="font-size:22px;font-weight:700;margin:6px 0 8px;letter-spacing:-0.02em;">GitHub Copilot</h3>
+      <p style="font-size:14px;line-height:1.55;color:var(--muted);">Inline coding assistant integrated with VS Code, JetBrains, and Neovim.</p>
+      <div style="margin-top:16px;display:flex;justify-content:space-between;align-items:center;">
+        <span class="mono" style="font-size:12px;">$10/mo</span>
+        <a href="#" class="btn btn-accent" style="font-size:12px;padding:6px 12px;">Open →</a>
+      </div>
+    </article>
+    <article class="cell" style="grid-column:span 4;">
+      <div class="mono" style="font-size:11px;color:var(--muted);">Productivity</div>
+      <h3 style="font-size:22px;font-weight:700;margin:6px 0 8px;letter-spacing:-0.02em;">Notion AI</h3>
+      <p style="font-size:14px;line-height:1.55;color:var(--muted);">Document and database AI inside Notion. Strong for summarization and drafting.</p>
+      <div style="margin-top:16px;display:flex;justify-content:space-between;align-items:center;">
+        <span class="mono" style="font-size:12px;">$10/mo</span>
+        <a href="#" class="btn btn-accent" style="font-size:12px;padding:6px 12px;">Open →</a>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- COMPARE TABLE -->
+<section id="tools" style="border-top:1px solid var(--line);">
+  <div class="grid">
+    <div class="cell" style="grid-column:span 12;border-right:0;padding:20px 24px;">
+      <h2 style="font-size:22px;font-weight:700;letter-spacing:-0.02em;">Quick comparison</h2>
+    </div>
+  </div>
+  <div class="grid" style="border-top:1px solid var(--line);font-size:14px;">
+    <div class="cell mono" style="grid-column:span 2;padding:12px 24px;font-size:11px;color:var(--muted);text-transform:uppercase;">Tool</div>
+    <div class="cell mono" style="grid-column:span 2;padding:12px 24px;font-size:11px;color:var(--muted);text-transform:uppercase;">Category</div>
+    <div class="cell mono" style="grid-column:span 2;padding:12px 24px;font-size:11px;color:var(--muted);text-transform:uppercase;">Price</div>
+    <div class="cell mono" style="grid-column:span 4;padding:12px 24px;font-size:11px;color:var(--muted);text-transform:uppercase;">Best for</div>
+    <div class="cell mono" style="grid-column:span 2;padding:12px 24px;font-size:11px;color:var(--muted);text-transform:uppercase;border-right:0;"></div>
+  </div>
+  <div class="grid" style="border-top:1px solid var(--line);">
+    <div class="cell" style="grid-column:span 2;padding:14px 24px;font-weight:600;">ChatGPT</div>
+    <div class="cell" style="grid-column:span 2;padding:14px 24px;color:var(--muted);">Chat / LLM</div>
+    <div class="cell mono" style="grid-column:span 2;padding:14px 24px;">$20/mo</div>
+    <div class="cell" style="grid-column:span 4;padding:14px 24px;color:var(--muted);">General writing, code, voice and image input.</div>
+    <div class="cell" style="grid-column:span 2;padding:10px 24px;border-right:0;"><a href="#" class="btn btn-accent" rel="nofollow sponsored noopener noreferrer" target="_blank" style="font-size:12px;padding:6px 12px;">Visit site →</a></div>
+  </div>
+  <div class="grid" style="border-top:1px solid var(--line);">
+    <div class="cell" style="grid-column:span 2;padding:14px 24px;font-weight:600;">Claude</div>
+    <div class="cell" style="grid-column:span 2;padding:14px 24px;color:var(--muted);">Chat / LLM</div>
+    <div class="cell mono" style="grid-column:span 2;padding:14px 24px;">$20/mo</div>
+    <div class="cell" style="grid-column:span 4;padding:14px 24px;color:var(--muted);">Long-context reasoning, structured output, safe defaults.</div>
+    <div class="cell" style="grid-column:span 2;padding:10px 24px;border-right:0;"><a href="#" class="btn btn-accent" rel="nofollow sponsored noopener noreferrer" target="_blank" style="font-size:12px;padding:6px 12px;">Visit site →</a></div>
+  </div>
+  <div class="grid" style="border-top:1px solid var(--line);">
+    <div class="cell" style="grid-column:span 2;padding:14px 24px;font-weight:600;">Perplexity</div>
+    <div class="cell" style="grid-column:span 2;padding:14px 24px;color:var(--muted);">Research</div>
+    <div class="cell mono" style="grid-column:span 2;padding:14px 24px;">$20/mo</div>
+    <div class="cell" style="grid-column:span 4;padding:14px 24px;color:var(--muted);">Cited, search-grounded research and real-time queries.</div>
+    <div class="cell" style="grid-column:span 2;padding:10px 24px;border-right:0;"><a href="#" class="btn btn-accent" rel="nofollow sponsored noopener noreferrer" target="_blank" style="font-size:12px;padding:6px 12px;">Visit site →</a></div>
+  </div>
+  <div class="grid" style="border-top:1px solid var(--line);">
+    <div class="cell" style="grid-column:span 2;padding:14px 24px;font-weight:600;">Midjourney</div>
+    <div class="cell" style="grid-column:span 2;padding:14px 24px;color:var(--muted);">Image</div>
+    <div class="cell mono" style="grid-column:span 2;padding:14px 24px;">$10/mo</div>
+    <div class="cell" style="grid-column:span 4;padding:14px 24px;color:var(--muted);">Stylistic illustration, concept art, brand visuals.</div>
+    <div class="cell" style="grid-column:span 2;padding:10px 24px;border-right:0;"><a href="#" class="btn btn-accent" rel="nofollow sponsored noopener noreferrer" target="_blank" style="font-size:12px;padding:6px 12px;">Visit site →</a></div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer style="border-top:1px solid var(--line);margin-top:64px;">
+  <div class="grid">
+    <div class="cell" style="grid-column:span 4;">
+      <div style="font-weight:700;margin-bottom:8px;">compareai.site</div>
+      <p style="color:var(--muted);font-size:13px;line-height:1.55;">Independent directory of AI tools. Some links are affiliate links — this does not affect ranking.</p>
+    </div>
+    <div class="cell" style="grid-column:span 2;">
+      <div class="mono" style="font-size:11px;color:var(--muted);margin-bottom:8px;">SECTION</div>
+      <ul style="line-height:1.9;font-size:14px;"><li><a>Tools</a></li><li><a>Categories</a></li><li><a>Reviews</a></li></ul>
+    </div>
+    <div class="cell" style="grid-column:span 2;">
+      <div class="mono" style="font-size:11px;color:var(--muted);margin-bottom:8px;">COMPANY</div>
+      <ul style="line-height:1.9;font-size:14px;"><li><a>About</a></li><li><a>Contact</a></li></ul>
+    </div>
+    <div class="cell" style="grid-column:span 4;border-right:0;">
+      <div class="mono" style="font-size:11px;color:var(--muted);margin-bottom:8px;">LEGAL</div>
+      <ul style="line-height:1.9;font-size:14px;"><li><a>Affiliate Disclosure</a></li><li><a>Privacy Policy</a></li><li><a>Terms</a></li></ul>
+    </div>
+  </div>
+  <div class="grid" style="border-top:1px solid var(--line);">
+    <div class="cell mono" style="grid-column:span 12;border-right:0;font-size:11px;color:var(--muted);">© 2026 compareai.site — built on Next.js / Supabase / Cloudflare Workers.</div>
+  </div>
+</footer>
+
+</body>
+</html>
